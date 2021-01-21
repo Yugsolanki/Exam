@@ -16,7 +16,7 @@ function sound() {
     src: ['Assets/Music.webm', 'Assets/Music.mp3'],
     autoautoplay: true,
     loop: false,
-    volume: 0.5,
+    volume: 1,
     autoUnlock: true, 
     onplayerror: function() {
       sound.once('unlock', function() {
