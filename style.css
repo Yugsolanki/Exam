@@ -54,4 +54,6 @@ button {
   border-radius: 30px;
   background: #f05454;
   color: white;
+  left: 50%;
+  transform: translateX(-50%)
 }
