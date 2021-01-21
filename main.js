@@ -6,8 +6,8 @@ function option() {
 }
 
 function time() {
-  var sec = [3000,1000,2000,4000,5000]
-  //var sec = [30000, 45000, 60000, 90000, 120000]
+  //var sec = [3000,1000,2000,4000,5000]
+  var sec = [30000, 45000, 60000, 90000, 120000]
   return sec[Math.floor(Math.random() * sec.length)];
     }
   
@@ -33,5 +33,4 @@ function play() {
 var yug = time();
   console.table(yug);
   setTimeout(sound, yug);
-  
 }
