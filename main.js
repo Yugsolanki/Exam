@@ -33,5 +33,5 @@ function play() {
 var yug = time();
   console.table(yug);
   setTimeout(sound, yug);
-  optionBox.textContent = "Wait..."
+  optionBox.textContent = "wait..."
 }
